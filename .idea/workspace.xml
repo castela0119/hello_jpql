@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="10.2 기본 문법과 쿼리 API - 파라미터 바인딩 - 위치 기준">
+    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="10.3 프로젝션(SELECT) - (1)엔티티 프로젝션">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Main.java" afterDir="false" />
     </list>
@@ -58,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671531444407</updated>
-      <workItem from="1671531446188" duration="4218000" />
+      <workItem from="1671531446188" duration="4894000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1671531841660</created>
@@ -109,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671534702404</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="10.3 프로젝션(SELECT) - (1)엔티티 프로젝션">
+      <created>1671535971310</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671535971310</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +141,7 @@
     <MESSAGE value="10.2 기본 문법과 쿼리 API - getSingleResult() - 결과가 단 하나일때" />
     <MESSAGE value="10.2 기본 문법과 쿼리 API - 파라미터 바인딩 - 이름 기준" />
     <MESSAGE value="10.2 기본 문법과 쿼리 API - 파라미터 바인딩 - 위치 기준" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.2 기본 문법과 쿼리 API - 파라미터 바인딩 - 위치 기준" />
+    <MESSAGE value="10.3 프로젝션(SELECT) - (1)엔티티 프로젝션" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.3 프로젝션(SELECT) - (1)엔티티 프로젝션" />
   </component>
 </project>
