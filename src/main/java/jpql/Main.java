@@ -17,8 +17,8 @@ public class Main {
             member.setAge(10);
             em.persist(member);
 
-            Member result = em.createQuery("select m from Member m where m.username = :username", Member.class)
-                    .setParameter("username", "member1")
+            Member result = em.createQuery("select m from Member m where m.username = ?1", Member.class)
+                    .setParameter(1, "member1")
                     .getSingleResult();
 
             System.out.println("result = " + result.getUsername());
