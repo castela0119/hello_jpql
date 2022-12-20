@@ -17,10 +17,11 @@ public class Main {
             member.setAge(10);
             em.persist(member);
 
-            TypedQuery<Member> query = em.createQuery("select m from Member m", Member.class);
+            Member result = em.createQuery("select m from Member m where m.username = :username", Member.class)
+                    .setParameter("username", "member1")
+                    .getSingleResult();
 
-            Member result = query.getSingleResult();
-            System.out.println("result = " + result);
+            System.out.println("result = " + result.getUsername());
 
             tx.commit();
         } catch (Exception e) {
@@ -29,7 +30,6 @@ public class Main {
         } finally {
             em.close();
         }
-
         emf.close();
     }
 }
