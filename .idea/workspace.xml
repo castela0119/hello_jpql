@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="10.2 기본 문법과 쿼리 API - getSingleResult() - 결과가 단 하나일때">
+    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="10.2 기본 문법과 쿼리 API - 파라미터 바인딩 - 위치 기준">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Main.java" afterDir="false" />
     </list>
@@ -58,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671531444407</updated>
-      <workItem from="1671531446188" duration="3078000" />
+      <workItem from="1671531446188" duration="4218000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1671531841660</created>
@@ -95,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671533332647</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="10.2 기본 문법과 쿼리 API - 파라미터 바인딩 - 이름 기준">
+      <created>1671534602707</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671534602707</updated>
+    </task>
+    <task id="LOCAL-00007" summary="10.2 기본 문법과 쿼리 API - 파라미터 바인딩 - 위치 기준">
+      <created>1671534702404</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671534702404</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +132,8 @@
     <MESSAGE value="10.2 기본 문법과 쿼리 API - 반환 타입이 명확할때, 명확하지 않을때, 반환타입이 여러개일때" />
     <MESSAGE value="10.2 기본 문법과 쿼리 API - getResultList() - 결과가 하나 이상일때" />
     <MESSAGE value="10.2 기본 문법과 쿼리 API - getSingleResult() - 결과가 단 하나일때" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.2 기본 문법과 쿼리 API - getSingleResult() - 결과가 단 하나일때" />
+    <MESSAGE value="10.2 기본 문법과 쿼리 API - 파라미터 바인딩 - 이름 기준" />
+    <MESSAGE value="10.2 기본 문법과 쿼리 API - 파라미터 바인딩 - 위치 기준" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.2 기본 문법과 쿼리 API - 파라미터 바인딩 - 위치 기준" />
   </component>
 </project>
