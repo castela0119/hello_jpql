@@ -17,12 +17,10 @@ public class Main {
             member.setAge(10);
             em.persist(member);
 
-            TypedQuery<Member> query1 = em.createQuery("select m from Member m", Member.class);
-            List<Member> resultList = query1.getResultList();
+            TypedQuery<Member> query = em.createQuery("select m from Member m", Member.class);
 
-            for (Member member1 : resultList) {
-                System.out.println("member1 = " + member1);
-            }
+            Member result = query.getSingleResult();
+            System.out.println("result = " + result);
 
             tx.commit();
         } catch (Exception e) {
