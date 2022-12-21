@@ -26,7 +26,7 @@ public class Main {
             em.flush();
             em.clear();
 
-            String query = "select m from Member m inner join m.team t";
+            String query = "select m from Member m left join m.team t";
             List<Member> result = em.createQuery(query, Member.class)
                     .getResultList();
 
