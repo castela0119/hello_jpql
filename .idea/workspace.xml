@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="10.8 조건식(CASE 등등) - (2) 조건식 - COALESCE">
+    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="10.8 조건식(CASE 등등) - (3) 조건식 - NULLIF">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -229,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671610805810</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="10.8 조건식(CASE 등등) - (3) 조건식 - NULLIF">
+      <created>1671611072456</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1671611072456</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +279,7 @@
     <MESSAGE value="10.7 JPQL 타입 표현과 기타식 - MemberType ENUM 생성" />
     <MESSAGE value="10.8 조건식(CASE 등등) - (1)기본 CASE 식" />
     <MESSAGE value="10.8 조건식(CASE 등등) - (2) 조건식 - COALESCE" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.8 조건식(CASE 등등) - (2) 조건식 - COALESCE" />
+    <MESSAGE value="10.8 조건식(CASE 등등) - (3) 조건식 - NULLIF" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.8 조건식(CASE 등등) - (3) 조건식 - NULLIF" />
   </component>
 </project>
