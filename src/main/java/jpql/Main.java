@@ -24,12 +24,12 @@ public class Main {
             em.flush();
             em.clear();
 
-            String query = "select size(t.members) From Team t";
+            String query = "select function('group_concat', m.username) From Member m";
 
-            List<Integer> result = em.createQuery(query, Integer.class)
+            List<String> result = em.createQuery(query, String.class)
                     .getResultList();
 
-            for (Integer s : result) {
+            for (String s : result) {
                 System.out.println("s = " + s);
             }
 
