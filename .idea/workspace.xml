@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="10.3 프로젝션(SELECT) - (1)엔티티 프로젝션">
+    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="10.3 프로젝션(SELECT) - (1)엔티티 프로젝션 - 조인 쿼리 방법">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Main.java" afterDir="false" />
     </list>
@@ -35,16 +35,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/USER/basic_jpa/jpql/src/main/resources",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/basic_jpa/jpql/src/main/resources&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\basic_jpa\jpql\src\main\resources" />
@@ -58,7 +58,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671531444407</updated>
-      <workItem from="1671531446188" duration="4894000" />
+      <workItem from="1671531446188" duration="4929000" />
+      <workItem from="1671581163933" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1671531841660</created>
@@ -116,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671535971310</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="10.3 프로젝션(SELECT) - (1)엔티티 프로젝션 - 조인 쿼리 방법">
+      <created>1671536358566</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671536358566</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +150,7 @@
     <MESSAGE value="10.2 기본 문법과 쿼리 API - 파라미터 바인딩 - 이름 기준" />
     <MESSAGE value="10.2 기본 문법과 쿼리 API - 파라미터 바인딩 - 위치 기준" />
     <MESSAGE value="10.3 프로젝션(SELECT) - (1)엔티티 프로젝션" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.3 프로젝션(SELECT) - (1)엔티티 프로젝션" />
+    <MESSAGE value="10.3 프로젝션(SELECT) - (1)엔티티 프로젝션 - 조인 쿼리 방법" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.3 프로젝션(SELECT) - (1)엔티티 프로젝션 - 조인 쿼리 방법" />
   </component>
 </project>

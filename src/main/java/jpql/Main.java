@@ -20,7 +20,7 @@ public class Main {
             em.flush();
             em.clear();
 
-            List<Team> result = em.createQuery("select m.team from Member m join m.team", Team.class)
+            em.createQuery("select o.address from Order o", Address.class)
                     .getResultList();
 
             tx.commit();
