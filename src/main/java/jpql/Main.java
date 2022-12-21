@@ -20,7 +20,7 @@ public class Main {
             em.flush();
             em.clear();
 
-            em.createQuery("select o.address from Order o", Address.class)
+            em.createQuery("select distinct m.username, m.age from Member m", Address.class)
                     .getResultList();
 
             tx.commit();
