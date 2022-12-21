@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="10.9 JPQL 함수 - (3)SIZE">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dialect/MyH2Dialect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="10.9 JPQL 함수 - (4)사용자 정의 함수">
       <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671619256331</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="10.9 JPQL 함수 - (4)사용자 정의 함수">
+      <created>1671620441715</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1671620441715</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +275,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10.2 기본 문법과 쿼리 API - 반환 타입이 명확할때, 명확하지 않을때, 반환타입이 여러개일때" />
     <MESSAGE value="10.2 기본 문법과 쿼리 API - getResultList() - 결과가 하나 이상일때" />
     <MESSAGE value="10.2 기본 문법과 쿼리 API - getSingleResult() - 결과가 단 하나일때" />
     <MESSAGE value="10.2 기본 문법과 쿼리 API - 파라미터 바인딩 - 이름 기준" />
@@ -296,6 +299,7 @@
     <MESSAGE value="10.8 조건식(CASE 등등) - (3) 조건식 - NULLIF" />
     <MESSAGE value="10.9 JPQL 함수 - (2)LOCATE" />
     <MESSAGE value="10.9 JPQL 함수 - (3)SIZE" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.9 JPQL 함수 - (3)SIZE" />
+    <MESSAGE value="10.9 JPQL 함수 - (4)사용자 정의 함수" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.9 JPQL 함수 - (4)사용자 정의 함수" />
   </component>
 </project>
