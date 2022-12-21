@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="10.8 조건식(CASE 등등) - (3) 조건식 - NULLIF">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="10.9 JPQL 함수 - (2)LOCATE">
       <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -237,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671611072456</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="10.9 JPQL 함수 - (2)LOCATE">
+      <created>1671619132027</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1671619132027</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +261,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
     <MESSAGE value="10.2 기본 문법과 쿼리 API - 엔티티 완성" />
     <MESSAGE value="10.2 기본 문법과 쿼리 API - 반환 타입이 명확할때, 명확하지 않을때, 반환타입이 여러개일때" />
     <MESSAGE value="10.2 기본 문법과 쿼리 API - getResultList() - 결과가 하나 이상일때" />
@@ -280,6 +285,7 @@
     <MESSAGE value="10.8 조건식(CASE 등등) - (1)기본 CASE 식" />
     <MESSAGE value="10.8 조건식(CASE 등등) - (2) 조건식 - COALESCE" />
     <MESSAGE value="10.8 조건식(CASE 등등) - (3) 조건식 - NULLIF" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.8 조건식(CASE 등등) - (3) 조건식 - NULLIF" />
+    <MESSAGE value="10.9 JPQL 함수 - (2)LOCATE" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.9 JPQL 함수 - (2)LOCATE" />
   </component>
 </project>

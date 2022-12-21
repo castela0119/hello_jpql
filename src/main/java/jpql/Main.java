@@ -24,7 +24,7 @@ public class Main {
             em.flush();
             em.clear();
 
-            String query = "select locate('de', 'abcdef') From Member m";
+            String query = "select size(t.members) From Team t";
 
             List<Integer> result = em.createQuery(query, Integer.class)
                     .getResultList();
