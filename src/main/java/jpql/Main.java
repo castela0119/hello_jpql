@@ -20,6 +20,7 @@ public class Main {
             em.flush();
             em.clear();
 
+
             List resultList = em.createQuery("select distinct m.username, m.age from Member m")
                     .getResultList();
 
