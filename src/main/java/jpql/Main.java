@@ -18,7 +18,7 @@ public class Main {
             em.persist(team);
 
             Member member = new Member();
-            member.setUsername("member1");
+            member.setUsername("teamA");
             member.setAge(10);
 
             member.setTeam(team);
@@ -26,14 +26,11 @@ public class Main {
             em.flush();
             em.clear();
 
-            String query = "select m from Member m left join m.team t";
+            String query = "select m from Member m, Team t where m.username = t.name";
             List<Member> result = em.createQuery(query, Member.class)
                     .getResultList();
 
             System.out.println("result = " + result.size());
-            for (Member member1 : result) {
-                System.out.println("member1 = " + member1);
-            }
 
             tx.commit();
         } catch (Exception e) {
