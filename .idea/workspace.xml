@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 반환 타입이 2개이상인 경우 - 방법1">
+    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 반환 타입이 2개이상인 경우 - 방법2 Object[] 타입으로 조회">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpql/MemberDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Main.java" afterDir="false" />
     </list>
@@ -59,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671531444407</updated>
       <workItem from="1671531446188" duration="4929000" />
-      <workItem from="1671581163933" duration="2281000" />
+      <workItem from="1671581163933" duration="3220000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1671531841660</created>
@@ -152,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671582427543</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 반환 타입이 2개이상인 경우 - 방법2 Object[] 타입으로 조회">
+      <created>1671584205845</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1671584205845</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +191,7 @@
     <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션" />
     <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 방법1" />
     <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 반환 타입이 2개이상인 경우 - 방법1" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 반환 타입이 2개이상인 경우 - 방법1" />
+    <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 반환 타입이 2개이상인 경우 - 방법2 Object[] 타입으로 조회" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 반환 타입이 2개이상인 경우 - 방법2 Object[] 타입으로 조회" />
   </component>
 </project>
