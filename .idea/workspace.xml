@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션">
+    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 반환 타입이 2개이상인 경우 - 방법1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Main.java" afterDir="false" />
     </list>
@@ -59,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671531444407</updated>
       <workItem from="1671531446188" duration="4929000" />
-      <workItem from="1671581163933" duration="1128000" />
+      <workItem from="1671581163933" duration="2281000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1671531841660</created>
@@ -138,7 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671581732810</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 방법1">
+      <created>1671582397978</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671582397978</updated>
+    </task>
+    <task id="LOCAL-00013" summary="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 반환 타입이 2개이상인 경우 - 방법1">
+      <created>1671582427543</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671582427543</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +181,8 @@
     <MESSAGE value="10.3 프로젝션(SELECT) - (1)엔티티 프로젝션 - 조인 쿼리 방법" />
     <MESSAGE value="10.3 프로젝션(SELECT) - (2)임베디드 타입 프로젝션" />
     <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션" />
+    <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 방법1" />
+    <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 반환 타입이 2개이상인 경우 - 방법1" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 반환 타입이 2개이상인 경우 - 방법1" />
   </component>
 </project>
