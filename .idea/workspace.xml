@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="11.1 경로 표현식">
+    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="11.2 페치 조인 1 - 기본">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Main.java" afterDir="false" />
     </list>
@@ -61,7 +61,7 @@
       <updated>1671531444407</updated>
       <workItem from="1671531446188" duration="4929000" />
       <workItem from="1671581163933" duration="11373000" />
-      <workItem from="1672020338196" duration="3684000" />
+      <workItem from="1672020338196" duration="5661000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1671531841660</created>
@@ -273,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672032096086</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="11.2 페치 조인 1 - 기본">
+      <created>1672036142328</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1672036142328</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +298,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10.2 기본 문법과 쿼리 API - 파라미터 바인딩 - 이름 기준" />
     <MESSAGE value="10.2 기본 문법과 쿼리 API - 파라미터 바인딩 - 위치 기준" />
     <MESSAGE value="10.3 프로젝션(SELECT) - (1)엔티티 프로젝션" />
     <MESSAGE value="10.3 프로젝션(SELECT) - (1)엔티티 프로젝션 - 조인 쿼리 방법" />
@@ -316,6 +322,7 @@
     <MESSAGE value="10.9 JPQL 함수 - (4)사용자 정의 함수" />
     <MESSAGE value="10.9 JPQL 함수 - (4)사용자 정의 함수 (편리하게 사용하는 법)" />
     <MESSAGE value="11.1 경로 표현식" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.1 경로 표현식" />
+    <MESSAGE value="11.2 페치 조인 1 - 기본" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.2 페치 조인 1 - 기본" />
   </component>
 </project>
