@@ -39,18 +39,13 @@ public class Main {
             em.flush();
             em.clear();
 
-            String query = "select t From Team t";
+            String query = "select m from Member m where m = :member";
 
-            List<Team> result = em.createQuery(query, Team.class)
-                    .setFirstResult(0)
-                    .setMaxResults(2)
-                    .getResultList();
+            Member findMember = em.createQuery(query, Member.class)
+                    .setParameter("member", member1)
+                    .getSingleResult();
 
-            System.out.println("result = " + result);
-
-            for (Team team : result) {
-                System.out.println("member = " + team.getName() + " | members = " + team.getMembers().size());
-            }
+            System.out.println("result = " + findMember);
 
             tx.commit();
         } catch (Exception e) {

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="11.2 페치 조인 1 - join fetch">
+    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="11.3 페치 조인 2 - 한계 - BatchSize">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +36,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/basic_jpa/jpql/src/main/resources&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/USER/basic_jpa/jpql/src/main/resources",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\basic_jpa\jpql\src\main\resources" />
@@ -63,6 +61,7 @@
       <workItem from="1671531446188" duration="4929000" />
       <workItem from="1671581163933" duration="11373000" />
       <workItem from="1672020338196" duration="7511000" />
+      <workItem from="1672102275661" duration="1395000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1671531841660</created>
@@ -288,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672046223795</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="11.3 페치 조인 2 - 한계 - BatchSize">
+      <created>1672102343012</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1672102343012</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +312,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10.3 프로젝션(SELECT) - (1)엔티티 프로젝션 - 조인 쿼리 방법" />
     <MESSAGE value="10.3 프로젝션(SELECT) - (2)임베디드 타입 프로젝션" />
     <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션" />
     <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 방법1" />
@@ -331,6 +336,7 @@
     <MESSAGE value="11.2 페치 조인 1 - 기본" />
     <MESSAGE value="11.2 페치 조인 1 - 페치조인과 DISTINCT" />
     <MESSAGE value="11.2 페치 조인 1 - join fetch" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.2 페치 조인 1 - join fetch" />
+    <MESSAGE value="11.3 페치 조인 2 - 한계 - BatchSize" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.3 페치 조인 2 - 한계 - BatchSize" />
   </component>
 </project>
