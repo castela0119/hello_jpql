@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="11.3 페치 조인 2 - 한계 - BatchSize">
+    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="11.5 엔티티 직접 사용 - 기본 키 값 (식별자를 직접 전달)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Main.java" afterDir="false" />
     </list>
@@ -61,7 +61,7 @@
       <workItem from="1671531446188" duration="4929000" />
       <workItem from="1671581163933" duration="11373000" />
       <workItem from="1672020338196" duration="7511000" />
-      <workItem from="1672102275661" duration="1395000" />
+      <workItem from="1672102275661" duration="2304000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1671531841660</created>
@@ -294,7 +294,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672102343012</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="11.5 엔티티 직접 사용 - 기본 키 값 (엔티티 직접 사용)">
+      <created>1672103921668</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1672103921668</updated>
+    </task>
+    <task id="LOCAL-00035" summary="11.5 엔티티 직접 사용 - 기본 키 값 (식별자를 직접 전달)">
+      <created>1672104190258</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1672104190258</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,8 +326,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10.3 프로젝션(SELECT) - (2)임베디드 타입 프로젝션" />
-    <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션" />
     <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 방법1" />
     <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 반환 타입이 2개이상인 경우 - 방법1" />
     <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 반환 타입이 2개이상인 경우 - 방법2 Object[] 타입으로 조회" />
@@ -337,6 +349,8 @@
     <MESSAGE value="11.2 페치 조인 1 - 페치조인과 DISTINCT" />
     <MESSAGE value="11.2 페치 조인 1 - join fetch" />
     <MESSAGE value="11.3 페치 조인 2 - 한계 - BatchSize" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.3 페치 조인 2 - 한계 - BatchSize" />
+    <MESSAGE value="11.5 엔티티 직접 사용 - 기본 키 값 (엔티티 직접 사용)" />
+    <MESSAGE value="11.5 엔티티 직접 사용 - 기본 키 값 (식별자를 직접 전달)" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.5 엔티티 직접 사용 - 기본 키 값 (식별자를 직접 전달)" />
   </component>
 </project>
