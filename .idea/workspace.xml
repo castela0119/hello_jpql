@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="11.5 엔티티 직접 사용 - 기본 키 값 (식별자를 직접 전달)">
+    <list default="true" id="fc4ad02b-1a07-4cf6-9160-bb341dfb6506" name="Changes" comment="11.5 엔티티 직접 사용 - 외래 키 값">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/USER/basic_jpa/jpql/src/main/resources",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/basic_jpa/jpql/src/main/resources&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\basic_jpa\jpql\src\main\resources" />
@@ -61,7 +62,8 @@
       <workItem from="1671531446188" duration="4929000" />
       <workItem from="1671581163933" duration="11373000" />
       <workItem from="1672020338196" duration="7511000" />
-      <workItem from="1672102275661" duration="2304000" />
+      <workItem from="1672102275661" duration="4060000" />
+      <workItem from="1672190006351" duration="609000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1671531841660</created>
@@ -308,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672104190258</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="11.5 엔티티 직접 사용 - 외래 키 값">
+      <created>1672104970966</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1672104970966</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +335,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 방법1" />
     <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 반환 타입이 2개이상인 경우 - 방법1" />
     <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 반환 타입이 2개이상인 경우 - 방법2 Object[] 타입으로 조회" />
     <MESSAGE value="10.3 프로젝션(SELECT) - (3)스칼라 타입 프로젝션 - 반환 타입이 2개이상인 경우 - 방법3 new 명령어로 조회" />
@@ -351,6 +359,7 @@
     <MESSAGE value="11.3 페치 조인 2 - 한계 - BatchSize" />
     <MESSAGE value="11.5 엔티티 직접 사용 - 기본 키 값 (엔티티 직접 사용)" />
     <MESSAGE value="11.5 엔티티 직접 사용 - 기본 키 값 (식별자를 직접 전달)" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.5 엔티티 직접 사용 - 기본 키 값 (식별자를 직접 전달)" />
+    <MESSAGE value="11.5 엔티티 직접 사용 - 외래 키 값" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.5 엔티티 직접 사용 - 외래 키 값" />
   </component>
 </project>
